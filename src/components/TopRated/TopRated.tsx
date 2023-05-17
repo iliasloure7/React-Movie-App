@@ -15,7 +15,7 @@ function TopRated() {
     <Container>
       <h2 className='mb-3 text-xl'>Top Rated</h2>
       <Carousel>
-        {data.map((movie: MovieWithGenreIds) => {
+        {data.map((movie) => {
           return (
             <MovieCard key={movie.title} movie={movie as MovieWithGenreIds} />
           );
