@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('src/assets/images/jpg/hero.jpg')",
+        'hero-pattern': "url('/src/assets/images/jpg/hero.jpg')",
       },
     },
     minWidth: {
